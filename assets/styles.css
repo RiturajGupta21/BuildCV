@@ -1,0 +1,93 @@
+body {
+    width: 58%;
+    margin: auto;
+    min-width: 600px;
+    max-width: 960px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 140%;
+    box-shadow: 5px 10px 40px rgb(255, 0, 0);
+}
+
+a {
+    color: rgb(247, 0, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(50, 152, 255);
+}
+
+hr {
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    text-align: right;
+}
+
+h4,
+h5 {
+    display: inline;
+}
+
+h5 {
+    margin: 0;
+    float: right;
+}
+
+header {
+    padding: 65px 65px 13px 65px;
+}
+
+header aside {
+    float: right;
+    text-align: right;
+    margin-top: -85px;
+}
+
+article {
+    padding: 13px 65px 0;
+}
+
+article section {
+    margin-bottom: 65px;
+}
+
+article p {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 0 65px 32px;
+    font-size: 13px;
+}
+
+@media print {
+    body {
+        color: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
+        box-shadow: none;
+    }
+    a {
+        color: inherit;
+    }
+    header {
+        padding: 65px 65px 13px 65px;
+    }
+    article {
+        padding: 13px 54px 0 65px;
+    }
+    article section {
+        margin-bottom: 52px;
+    }
+    footer {
+        display: none;
+    }
+    .pagebreak {
+        page-break-before: always;
+    }
+}

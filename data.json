@@ -1,0 +1,50 @@
+{
+    "details": {
+        "header": {
+            "name": "Rituraj Gupta",
+            "city": "Dharbhanga",
+            "state": "Bihar",
+            "mobile": "+91 7061831074",
+            "email": "rituraj.iter@gmail.com",
+            "website": "http://riturajgupta.rf.gd/",
+            "language": "Hindi,English",
+            "photo": "rituraj.jpg",
+            "print": [
+                "<button onclick='window.print()'>Print this page</button>"
+            ]
+        },
+        "body": {
+            "Experience": [{
+                "title": "",
+                "subtitle": "",
+                "description": ""
+            }],
+            "Academic Details": [{
+                    "title": "Graduation [2023]",
+                    "subtitle": "B.Tech CSE",
+                    "description": "From ITER, SOA University"
+                },
+                {
+                    "title": "High School [2019]",
+                    "subtitle": "PCM",
+                    "description": "From St.Xaviers Public School"
+                }
+            ],
+            "Skills": [{
+                "title": "",
+                "subtitle": "",
+                "description": ""
+            }],
+            "Extracurricular Activites": [{
+                "title": "",
+                "subtitle": "",
+                "description": ""
+            }],
+            "Hobbies": [{
+                "title": "Learning New Technology",
+                "subtitle": "",
+                "description": "Learn and Grow"
+            }]
+        }
+    }
+}
